@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>Student Details form</h1>
+    <form id="myForm" onsubmit="Data()">
+      <div class="name">
+        <label for="names"> Enter your name : </label>
+        <input type="text" id="names" />
+      </div>
+      <div class="number">
+        <label for="pn"> Enter your Phone No. : </label>
+        <input type="tel" id="pn" maxlength="10" />
+      </div>
+      <div class="city">
+        <label for="city"> Enter your city : </label>
+        <input type="text" id="city" />
+      </div>
+      <input class="submitbutton" type="submit" value="Submit" />
+    </form>
+    <h2>Students Details :</h2>
+    <ul id="studentDetails" class="student-details"></ul>
+  </body>
+  <script src="index.js"></script>
+</html>

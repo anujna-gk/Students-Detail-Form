@@ -1,0 +1,15 @@
+.name, .city, .number {
+    padding: 15px;
+    margin: 10px;
+}
+.submitbutton{
+    padding: 7px;
+    margin: 10px;
+    width: 90px;
+}
+body{
+    background-color: rgb(174, 243, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
